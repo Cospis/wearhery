@@ -1,6 +1,8 @@
 .feature{
     display: flex;
     padding: 0px 80px;
+    background-color: #F3F3F4;
+    padding-bottom: 120px;
 }
 
 .text h3{
@@ -28,7 +30,7 @@ padding-bottom: 20px;
 }
 .btn button{
     padding: 20px 34px;
-    border-radius: 8px;
+    border-radius: 4px;
     gap: 20px;
     width: 180px;
 }

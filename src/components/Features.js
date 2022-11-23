@@ -13,7 +13,7 @@ const DefaultFeature = () => {
           </p>
         </div>
         <div className="btn">
-          <div className="start">
+          <div className="gstart">
             <button id="start">Get started</button>
           </div>
           <div className="view">

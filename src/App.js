@@ -1,3 +1,4 @@
+import DefaultAccessible from "./components/Accessible";
 import DefaultFeature from "./components/Features";
 import DefaultHeader from "./components/Header";
 
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <DefaultHeader />
       <DefaultFeature />
+      <DefaultAccessible />
     </div>
   );
 }
