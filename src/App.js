@@ -3,6 +3,7 @@ import DefaultFeature from "./components/Features";
 import DefaultHeader from "./components/Header";
 import AnythingCards from "./components/AnythingCards";
 import DefaultEverything from "./components/Everything";
+import EverythingCards from "./components/EverythingCard";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <DefaultAccessible />
       <AnythingCards />
       <DefaultEverything />
+      <EverythingCards />
     </div>
   );
 }
