@@ -41,16 +41,17 @@ font-weight: 700;
     border: none;
     color: white;
     background-color: #EF6820;
-border-radius: 4px;
-padding: 20px 32px ;
-margin-top: 20px;
+    border-radius: 4px;
+    padding: 20px 32px ;
+    margin-top: 20px;
 }
 @media screen and (max-width: 700px) {
     .accessible{
         padding: 0px 24px;
         display: block;
-padding-bottom: 70px;
-    }.zero{
+        padding-bottom: 70px;
+    }
+    .zero{
        width: 100%;
     }
     
