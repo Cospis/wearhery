@@ -33,6 +33,10 @@ font-weight: 700;
     background-color: #F3F3F4;
     padding: 0px 80px;
 }
+.image img{
+    max-width:100%;
+    max-height:100%;
+}
 .image{
     padding: 40px 200px 0px 200px;
     background-color: #FDEAD7;
