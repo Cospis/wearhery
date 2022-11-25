@@ -4,6 +4,7 @@ import DefaultHeader from "./components/Header";
 import AnythingCards from "./components/AnythingCards";
 import DefaultEverything from "./components/Everything";
 import EverythingCards from "./components/EverythingCard";
+import DefaultExplore from "./components/Explore";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <AnythingCards />
       <DefaultEverything />
       <EverythingCards />
+      <DefaultExplore />
     </div>
   );
 }

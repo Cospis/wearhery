@@ -1,0 +1,25 @@
+.explore{
+    padding: 100px 80px;
+    background-color: #F3F3F4;
+}
+.explorecards{
+    padding-top: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: #F3F3F4;
+}
+@media screen and (max-width: 700px) {
+    .explore{
+        padding: 20px 24px;
+    }
+    .explorecards{
+        display: block;
+        width: auto;
+        padding-top: 50px;
+    }
+    .card{
+        margin-bottom: 30px;
+        width: auto !important;
+    }
+}
