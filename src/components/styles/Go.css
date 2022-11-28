@@ -1,0 +1,50 @@
+.defaultgomobile{
+    padding: 0px 80px;
+    background-color: #F3F3F4;
+}
+.gomobile{
+    padding: 30px 60px;
+    background-color: #FDEAD7;
+}
+.text{
+    padding-right: 650px;
+}
+.text h2{
+    font-size: 60px;
+}
+.go-img{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#AP{
+    padding-right: 30px;
+}
+.text h4{
+    color: #EF6820;
+}
+@media screen and (max-width: 700px) {
+    .defaultgomobile{
+        padding: 0px 24px;
+    }
+    .gomobile{
+        padding: 24px 24px;
+    }
+    .text h2{
+        font-size:6vw;
+    }
+    .text{
+        padding-right: 0px;
+    }
+    .go-img img{
+        width: 100%;
+    }
+    #AP{
+        padding-right: 0px;
+    }
+    .go-img {
+        gap: 20px;
+    }
+
+}

@@ -6,6 +6,7 @@ import DefaultEverything from "./components/Everything";
 import EverythingCards from "./components/EverythingCard";
 import DefaultExplore from "./components/Explore";
 import DefaultQuestions from "./components/FAQs";
+import DefaultGoMobile from "./components/Go";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <EverythingCards />
       <DefaultExplore />
       <DefaultQuestions />
+      <DefaultGoMobile />
     </div>
   );
 }
