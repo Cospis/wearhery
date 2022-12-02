@@ -7,6 +7,7 @@ import EverythingCards from "./components/EverythingCard";
 import DefaultExplore from "./components/Explore";
 import DefaultQuestions from "./components/FAQs";
 import DefaultGoMobile from "./components/Go";
+import DefaultFooter from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <DefaultExplore />
       <DefaultQuestions />
       <DefaultGoMobile />
+      <DefaultFooter />
     </div>
   );
 }
